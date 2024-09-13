@@ -203,4 +203,3 @@ async def generateToken(userCredentials : SCHEMAS.demandTokenTemplate, db : Sess
         response.response = "null"
         response.status = "error"
         return response
-
